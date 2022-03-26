@@ -44,6 +44,7 @@ namespace assignment {
     }
     data_[index] = value;
     size_++;
+    return true;
   }
 
   bool DynamicArray::Set(int index, int new_value) {

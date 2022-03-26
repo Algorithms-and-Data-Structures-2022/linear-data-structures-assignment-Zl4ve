@@ -75,6 +75,7 @@ namespace assignment {
       }
       curr = curr -> next;
     }
+    return true;
   }
 
   std::optional<int> LinkedList::Remove(int index) {
